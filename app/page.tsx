@@ -6,9 +6,9 @@ export default function Home() {
       <section className="hero bg-[#f5f5f5] w-full flex justify-center items-center">
         <Image src="/icon.png" alt="logo" width={500} height={500} />
       </section>
-      <section className="about-section py-20 flex flex-col items-center justify-center gap-4">
+      <section className="about-section py-20 px-6 flex flex-col items-center justify-center gap-4">
         <h1 className="font-bold text-5xl">Rebisa Games</h1>
-        <p className="text-lg font-normal max-w-[700px] text-center">
+        <p className="text-xl font-normal max-w-[700px] text-center">
           Rebisa Games is an exciting and educational mobile game platform that
           combines elements of trivia quizzes with battle mechanics. Players can
           earn game currency by answering questions correctly and use it to
@@ -17,13 +17,13 @@ export default function Home() {
           knowledge!
         </p>
       </section>
-      <section className="game-section bg-[#f5f5f5] py-20">
-        <div className="container flex items-center">
-          <div className="w-[40%]  flex flex-col gap-4">
+      <section className="game-section bg-[#f5f5f5] py-20 px-6">
+        <div className="container flex items-center flex-col gap-10 md:flex-row">
+          <div className="w-full md:w-[50%] flex flex-col gap-4 md:text-left md:items-start items-center text-center">
             <h1 className="font-bold text-5xl">Rebisa</h1>
-            <p className="text-lg font-normal ">
-              Rebisa, bilgi yarışması ve savaş oyunu elementlerini bir araya
-              getiren eğlenceli ve öğretici bir mobil oyun platformudur.
+            <p className="text-xl font-normal ">
+              Rebisa is a fun and educational mobile game platform that combines
+              quiz and war game elements.
             </p>
             <div className="flex gap-4">
               <Image
@@ -40,7 +40,7 @@ export default function Home() {
               />
             </div>
           </div>
-          <div className="w-[60%] flex justify-end">
+          <div className="flex md:justify-end w-full justify-center">
             <Image src="/app.png" alt="logo" width={360} height={640} />
           </div>
         </div>
