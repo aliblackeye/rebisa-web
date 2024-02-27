@@ -25,7 +25,7 @@ export default function Home() {
               Rebisa is a fun and educational mobile game platform that combines
               quiz and war game elements.
             </p>
-            <div className="flex gap-4">
+            <div className="flex gap-4 flex-col md:flex-row">
               <Image
                 src="/play_store_badge_en.webp"
                 alt="logo"
